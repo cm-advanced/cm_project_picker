@@ -1,10 +1,16 @@
-name = CM Project Picker
+name = CMA Project Picker
 description = Allows users to pick their project by ID or Name, then the results give links to the users.
-core = 7.x
-package = Community Media
+
 dependencies[] = cm_show
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
 features[views_view][] = project_picker
 features_exclude[dependencies][ctools] = ctools
+
+package = "Community Media Advanced"
+version = "7.x-2.1"
+core = "7.x"
+
+project_status_url = https://github.com/cm-advanced/cm_project_picker
+project = "cm_project_picker"
