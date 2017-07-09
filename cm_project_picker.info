@@ -9,7 +9,7 @@ features[views_view][] = project_picker
 features_exclude[dependencies][ctools] = ctools
 
 package = "Community Media Advanced"
-version = "7.x-2.1"
+version = "7.x-2.2"
 core = "7.x"
 
 project_status_url = https://github.com/cm-advanced/cm_project_picker
